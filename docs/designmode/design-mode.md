@@ -1,28 +1,17 @@
 ## 设计模式的6大原则
-
 ### 单一职责
-
 - SRP (Single Responsibility Principle)  , "There should never be more than one reason for aclass to change."
 - 
-
 ### 里氏替换
-
-- 
-
 ### 依赖倒置
-
 #### 定义
-
 Dependence Inversion Principle，DIP. High level modules should not depend upon low level modules.Both should depend upon abstractions.Abstractions should not depend upon details.Details should depend upon abstractions.
-
 三层含义
-
 1. 高层模块不应该依赖低层模块，两者都应该依赖其抽象；
 2. 抽象不应该依赖细节；
 3. 细节应该依赖抽象
 
 在Java语言中的表现
-
 1. 模块间的依赖通过抽象发生，实现类之间不发生直接的依赖关系，其依赖关系是通过接口或抽象类产生的；
 2. 接口或抽象类不依赖与实现类；
 3. 实现类依赖接口或抽象类

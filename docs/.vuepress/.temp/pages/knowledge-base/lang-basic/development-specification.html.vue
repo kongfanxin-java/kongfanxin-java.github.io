@@ -1,0 +1,21 @@
+<template><h1 id="开发规范" tabindex="-1"><a class="header-anchor" href="#开发规范" aria-hidden="true">#</a> 开发规范</h1>
+<h2 id="源码管理-gitlab" tabindex="-1"><a class="header-anchor" href="#源码管理-gitlab" aria-hidden="true">#</a> 源码管理（gitlab）</h2>
+<h3 id="代码库" tabindex="-1"><a class="header-anchor" href="#代码库" aria-hidden="true">#</a> 代码库</h3>
+<h3 id="项目管理" tabindex="-1"><a class="header-anchor" href="#项目管理" aria-hidden="true">#</a> 项目管理</h3>
+<h3 id="分组与权限管理" tabindex="-1"><a class="header-anchor" href="#分组与权限管理" aria-hidden="true">#</a> 分组与权限管理</h3>
+<h3 id="分支-branch-管理" tabindex="-1"><a class="header-anchor" href="#分支-branch-管理" aria-hidden="true">#</a> 分支(branch)管理</h3>
+<h3 id="标签-tag-管理" tabindex="-1"><a class="header-anchor" href="#标签-tag-管理" aria-hidden="true">#</a> 标签（tag）管理</h3>
+<h3 id="合并请求管理-mergerequest" tabindex="-1"><a class="header-anchor" href="#合并请求管理-mergerequest" aria-hidden="true">#</a> 合并请求管理（MergeRequest）</h3>
+<h2 id="版本管理" tabindex="-1"><a class="header-anchor" href="#版本管理" aria-hidden="true">#</a> 版本管理</h2>
+<h3 id="版本号" tabindex="-1"><a class="header-anchor" href="#版本号" aria-hidden="true">#</a> 版本号</h3>
+<h3 id="协作开发-gitflow模式" tabindex="-1"><a class="header-anchor" href="#协作开发-gitflow模式" aria-hidden="true">#</a> 协作开发（gitflow模式）</h3>
+<h3 id="版本发布流程" tabindex="-1"><a class="header-anchor" href="#版本发布流程" aria-hidden="true">#</a> 版本发布流程</h3>
+<h2 id="依赖管理" tabindex="-1"><a class="header-anchor" href="#依赖管理" aria-hidden="true">#</a> 依赖管理</h2>
+<h2 id="数据库" tabindex="-1"><a class="header-anchor" href="#数据库" aria-hidden="true">#</a> 数据库</h2>
+<h3 id="用户管理" tabindex="-1"><a class="header-anchor" href="#用户管理" aria-hidden="true">#</a> 用户管理</h3>
+<h2 id="配置管理" tabindex="-1"><a class="header-anchor" href="#配置管理" aria-hidden="true">#</a> 配置管理</h2>
+<h2 id="代码编写规范" tabindex="-1"><a class="header-anchor" href="#代码编写规范" aria-hidden="true">#</a> 代码编写规范</h2>
+<h3 id="命名规范" tabindex="-1"><a class="header-anchor" href="#命名规范" aria-hidden="true">#</a> 命名规范</h3>
+<h3 id="包管理" tabindex="-1"><a class="header-anchor" href="#包管理" aria-hidden="true">#</a> 包管理</h3>
+<h3 id="配置文件" tabindex="-1"><a class="header-anchor" href="#配置文件" aria-hidden="true">#</a> 配置文件</h3>
+</template>

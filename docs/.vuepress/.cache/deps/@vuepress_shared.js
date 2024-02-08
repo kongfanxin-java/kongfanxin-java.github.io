@@ -3,7 +3,7 @@ import {
   isFunction,
   isPromise,
   isString
-} from "./chunk-KK6OHQPS.js";
+} from "./chunk-RIOQM7FI.js";
 import {
   init_define_DOCSEARCH_OPTIONS,
   init_define_EXTERNAL_LINK_ICON_LOCALES,

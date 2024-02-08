@@ -2,7 +2,7 @@ import {
   isPerformanceSupported,
   now,
   setupDevtoolsPlugin
-} from "./chunk-7QRDAKEW.js";
+} from "./chunk-UMM2MJTK.js";
 import {
   init_define_DOCSEARCH_OPTIONS,
   init_define_EXTERNAL_LINK_ICON_LOCALES,

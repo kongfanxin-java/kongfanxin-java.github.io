@@ -1,9 +1,0 @@
-<template><h1 id="专栏概述" tabindex="-1"><a class="header-anchor" href="#专栏概述" aria-hidden="true">#</a> 专栏概述</h1>
-<blockquote>
-<p>目前能想到的是算法笔记、大数据基础、解决方案架构三方面内容，后续可能（大概不会）扩展更新……</p>
-</blockquote>
-<h2 id="算法笔记" tabindex="-1"><a class="header-anchor" href="#算法笔记" aria-hidden="true">#</a> 算法笔记</h2>
-<p>对于目前阶段的我来说，只能对我做个对寥寥无几的算法题进行一个总结或记录，内容不保证正确，尽可能的保持更新吧</p>
-<h2 id="大数据基础" tabindex="-1"><a class="header-anchor" href="#大数据基础" aria-hidden="true">#</a> 大数据基础</h2>
-<p>出于对大数据技术的好奇，了解一部分数仓建设、离线数据处理、实时数据处理等概念</p>
-</template>

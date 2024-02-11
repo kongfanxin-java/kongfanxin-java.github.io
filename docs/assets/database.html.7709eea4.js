@@ -1,0 +1,1 @@
+const e={key:"v-49c75d5c",path:"/knowledge-base/environment-setup/database.html",title:"\u5173\u7CFB\u578B\u6570\u636E\u5E93",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1707280291e3,contributors:[{name:"KongFanxin",email:"kongfanxin_java@163.com",commits:1}]},filePathRelative:"knowledge-base/environment-setup/database.md"};export{e as data};

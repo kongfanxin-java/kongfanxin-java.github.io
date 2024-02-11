@@ -1,0 +1,1 @@
+const t={key:"v-1b0a21ae",path:"/technical-columnist/architecture/springcloud.html",title:"\u5FAE\u670D\u52A1\u67B6\u6784",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1707280291e3,contributors:[{name:"KongFanxin",email:"kongfanxin_java@163.com",commits:1}]},filePathRelative:"technical-columnist/architecture/springcloud.md"};export{t as data};

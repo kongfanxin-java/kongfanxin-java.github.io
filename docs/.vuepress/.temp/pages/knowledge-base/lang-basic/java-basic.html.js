@@ -19,18 +19,15 @@ export const data = {
       "children": []
     }
   ],
+  "git": {
+    "updatedTime": 1707280291000,
+    "contributors": [
+      {
+        "name": "KongFanxin",
+        "email": "kongfanxin_java@163.com",
+        "commits": 1
+      }
+    ]
+  },
   "filePathRelative": "knowledge-base/lang-basic/java-basic.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

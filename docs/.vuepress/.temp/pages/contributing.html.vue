@@ -46,12 +46,12 @@
 <li><a href="https://classic.yarnpkg.com/zh-Hans/docs/install" target="_blank" rel="noopener noreferrer">Yarn v1 classic<ExternalLinkIcon/></a></li>
 </ul>
 <p>克隆代码仓库，并安装依赖：</p>
-<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">yarn</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>监听源文件修改：</p>
-<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">yarn</span> dev
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>打开另一个终端，开始开发项目文档网站：</p>
-<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">yarn</span> docs:dev
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>本项目开发使用的一些主要工具：</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="shiki" style="background-color: #1E1E1E"><code><span class="line"><span style="color: #D4D4D4">yarn</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>监听源文件修改：</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="shiki" style="background-color: #1E1E1E"><code><span class="line"><span style="color: #D4D4D4">yarn dev</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>打开另一个终端，开始开发项目文档网站：</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="shiki" style="background-color: #1E1E1E"><code><span class="line"><span style="color: #D4D4D4">yarn docs:dev</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>本项目开发使用的一些主要工具：</p>
 <ul>
 <li><a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">TypeScript<ExternalLinkIcon/></a> 作为开发语言</li>
 <li><a href="https://jestjs.io/" target="_blank" rel="noopener noreferrer">Jest<ExternalLinkIcon/></a> 用于单元测试</li>

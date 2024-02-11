@@ -15,15 +15,15 @@
 <ul>
 <li>nullCatalogMeansCurrent=true 属性保证自动创建表结构,默认为false</li>
 </ul>
-<div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>url: jdbc:mysql://localhost:3306/flowable?characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;nullCatalogMeansCurrent=true
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><h4 id="flowable启动报错" tabindex="-1"><a class="header-anchor" href="#flowable启动报错" aria-hidden="true">#</a> flowable启动报错</h4>
+<div class="language-text ext-text line-numbers-mode"><pre v-pre class="shiki" style="background-color: #1E1E1E"><code><span class="line"><span style="color: #D4D4D4">url: jdbc:mysql://localhost:3306/flowable?characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;nullCatalogMeansCurrent=true</span></span>
+<span class="line"><span style="color: #D4D4D4"></span></span></code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><h4 id="flowable启动报错" tabindex="-1"><a class="header-anchor" href="#flowable启动报错" aria-hidden="true">#</a> flowable启动报错</h4>
 <ul>
 <li>降低 mysql-connector-java.jar 版本：8.0.22 具体原因暂不知道</li>
 <li>需要检查8.0.22与高版本的区别</li>
 </ul>
-<div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>Caused by: java.lang.ClassCastException: java.time.LocalDateTime cannot be cast to java.lang.String
-Caused by: java.lang.IllegalStateException: Event registry has not been initialized
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h4 id="mysql-current-timestamp" tabindex="-1"><a class="header-anchor" href="#mysql-current-timestamp" aria-hidden="true">#</a> MySQL  CURRENT_TIMESTAMP</h4>
+<div class="language-text ext-text line-numbers-mode"><pre v-pre class="shiki" style="background-color: #1E1E1E"><code><span class="line"><span style="color: #D4D4D4">Caused by: java.lang.ClassCastException: java.time.LocalDateTime cannot be cast to java.lang.String</span></span>
+<span class="line"><span style="color: #D4D4D4">Caused by: java.lang.IllegalStateException: Event registry has not been initialized</span></span>
+<span class="line"><span style="color: #D4D4D4"></span></span></code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h4 id="mysql-current-timestamp" tabindex="-1"><a class="header-anchor" href="#mysql-current-timestamp" aria-hidden="true">#</a> MySQL  CURRENT_TIMESTAMP</h4>
 <ul>
 <li>在MySQL 5.6.5版本之前，DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP只适用于TIMESTAMP，而且一张表中，最多允许一个TIMESTAMP字段采用该特性。 从MySQL 5.6.5开始， DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP同时适用于TIMESTAMP和DATETIME，且不限制数量。</li>
 </ul>

@@ -5,10 +5,10 @@
 <h2 id="社区主题" tabindex="-1"><a class="header-anchor" href="#社区主题" aria-hidden="true">#</a> 社区主题</h2>
 <p>社区用户创建了很多主题，并将它们发布到了 <a href="https://www.npmjs.com/search?q=keywords:vuepress-theme" target="_blank" rel="noopener noreferrer">NPM<ExternalLinkIcon/></a> 上。查看主题本身的文档可以获取更详细的指引。</p>
 <p>一般而言，你需要在 <RouterLink to="/reference/config.html#theme">theme</RouterLink> 配置项中设置你要使用的主题名称：</p>
-<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
-  <span class="token literal-property property">theme</span><span class="token operator">:</span> <span class="token string">'foo'</span><span class="token punctuation">,</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>你可以使用主题名称或者它的简称：</p>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="shiki" style="background-color: #1E1E1E"><code><span class="line"><span style="color: #4EC9B0">module</span><span style="color: #D4D4D4">.</span><span style="color: #4EC9B0">exports</span><span style="color: #D4D4D4"> = {</span></span>
+<span class="line"><span style="color: #D4D4D4">  </span><span style="color: #9CDCFE">theme:</span><span style="color: #D4D4D4"> </span><span style="color: #CE9178">&#39;foo&#39;</span><span style="color: #D4D4D4">,</span></span>
+<span class="line"><span style="color: #D4D4D4">}</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>你可以使用主题名称或者它的简称：</p>
 <table>
 <thead>
 <tr>
@@ -34,15 +34,15 @@
 <h2 id="本地主题" tabindex="-1"><a class="header-anchor" href="#本地主题" aria-hidden="true">#</a> 本地主题</h2>
 <p>如果你想要使用自己的自定义主题，但是又不想发布它，你可以创建一个本地主题。</p>
 <p>首先，创建本地主题目录，一般是 <code>.vuepress/theme</code> ：</p>
-<div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>└─ docs
-   ├─ .vuepress
-   │  ├─ theme
-   │  │  └─ index.js
-   │  └─ config.js
-   └─ README.md
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>然后，将 <RouterLink to="/reference/config.html#theme">theme</RouterLink> 配置项设置为 <RouterLink to="/advanced/theme.html#%E4%B8%BB%E9%A2%98%E5%85%A5%E5%8F%A3">主题入口</RouterLink> 的绝对路径来使用它：</p>
-<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
-  <span class="token literal-property property">theme</span><span class="token operator">:</span> path<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">'./path/to/docs/.vuepress/theme/index.js'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>接下来，前往 <RouterLink to="/advanced/theme.html">深入 &gt; 开发主题</RouterLink> 学习如何开发你自己的主题。</p>
+<div class="language-text ext-text line-numbers-mode"><pre v-pre class="shiki" style="background-color: #1E1E1E"><code><span class="line"><span style="color: #D4D4D4">└─ docs</span></span>
+<span class="line"><span style="color: #D4D4D4">   ├─ .vuepress</span></span>
+<span class="line"><span style="color: #D4D4D4">   │  ├─ theme</span></span>
+<span class="line"><span style="color: #D4D4D4">   │  │  └─ index.js</span></span>
+<span class="line"><span style="color: #D4D4D4">   │  └─ config.js</span></span>
+<span class="line"><span style="color: #D4D4D4">   └─ README.md</span></span>
+<span class="line"><span style="color: #D4D4D4"></span></span></code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>然后，将 <RouterLink to="/reference/config.html#theme">theme</RouterLink> 配置项设置为 <RouterLink to="/advanced/theme.html#%E4%B8%BB%E9%A2%98%E5%85%A5%E5%8F%A3">主题入口</RouterLink> 的绝对路径来使用它：</p>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="shiki" style="background-color: #1E1E1E"><code><span class="line"><span style="color: #4EC9B0">module</span><span style="color: #D4D4D4">.</span><span style="color: #4EC9B0">exports</span><span style="color: #D4D4D4"> = {</span></span>
+<span class="line"><span style="color: #D4D4D4">  </span><span style="color: #9CDCFE">theme:</span><span style="color: #D4D4D4"> </span><span style="color: #9CDCFE">path</span><span style="color: #D4D4D4">.</span><span style="color: #DCDCAA">resolve</span><span style="color: #D4D4D4">(</span><span style="color: #9CDCFE">__dirname</span><span style="color: #D4D4D4">, </span><span style="color: #CE9178">&#39;./path/to/docs/.vuepress/theme/index.js&#39;</span><span style="color: #D4D4D4">),</span></span>
+<span class="line"><span style="color: #D4D4D4">}</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>接下来，前往 <RouterLink to="/advanced/theme.html">深入 &gt; 开发主题</RouterLink> 学习如何开发你自己的主题。</p>
 </template>

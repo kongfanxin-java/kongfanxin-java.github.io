@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./app.efddb17c.js";const r={},c={id:"main",style:{width:"600px",height:"400px"}};function _(o,n){return t(),a("div",c)}var i=e(r,[["render",_],["__file","GaugeCar.vue"]]);export{i as default};

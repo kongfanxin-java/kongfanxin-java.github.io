@@ -1,1 +1,0 @@
-const t={key:"v-0d0313e4",path:"/technical-columnist/architecture/devops.html",title:"DevOps\u57FA\u7840",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1707280291e3,contributors:[{name:"KongFanxin",email:"kongfanxin_java@163.com",commits:1}]},filePathRelative:"technical-columnist/architecture/devops.md"};export{t as data};

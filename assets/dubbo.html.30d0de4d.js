@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,b as c,f as a}from"./app.efddb17c.js";const r={},s={id:"rpc\u67B6\u6784",tabindex:"-1"},_=c("a",{class:"header-anchor",href:"#rpc\u67B6\u6784","aria-hidden":"true"},"#",-1),d=a(" RPC\u67B6\u6784"),n=[_,d];function h(i,f){return t(),o("h1",s,n)}var u=e(r,[["render",h],["__file","dubbo.html.vue"]]);export{u as default};

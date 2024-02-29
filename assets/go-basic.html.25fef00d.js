@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,b as a,f as s}from"./app.efddb17c.js";const c={},_={id:"go\u8BED\u8A00\u57FA\u7840",tabindex:"-1"},r=a("a",{class:"header-anchor",href:"#go\u8BED\u8A00\u57FA\u7840","aria-hidden":"true"},"#",-1),n=s(" Go\u8BED\u8A00\u57FA\u7840"),d=[r,n];function i(h,f){return o(),t("h1",_,d)}var m=e(c,[["render",i],["__file","go-basic.html.vue"]]);export{m as default};

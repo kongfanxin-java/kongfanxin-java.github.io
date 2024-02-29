@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as o,e as a,b as r}from"./app.012aded6.js";const s={},c={id:"\u6392\u5E8F\u7B97\u6CD5",tabindex:"-1"},n=r("a",{class:"header-anchor",href:"#\u6392\u5E8F\u7B97\u6CD5","aria-hidden":"true"},"#",-1);function _(d,i){return t(),o("h1",c,[n,a(" \u6392\u5E8F\u7B97\u6CD5")])}var l=e(s,[["render",_],["__file","sort-soulution.html.vue"]]);export{l as default};

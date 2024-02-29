@@ -1,1 +1,0 @@
-import{_ as e,o as a,c,e as t,b as r}from"./app.012aded6.js";const o={},s={id:"\u6570\u636E\u7F13\u5B58",tabindex:"-1"},_=r("a",{class:"header-anchor",href:"#\u6570\u636E\u7F13\u5B58","aria-hidden":"true"},"#",-1);function n(d,h){return a(),c("h1",s,[_,t(" \u6570\u636E\u7F13\u5B58")])}var f=e(o,[["render",n],["__file","cache.html.vue"]]);export{f as default};

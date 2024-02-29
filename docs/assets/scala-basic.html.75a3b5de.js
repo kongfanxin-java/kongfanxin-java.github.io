@@ -1,1 +1,0 @@
-import{_ as a,o as e,c,e as s,b as t}from"./app.012aded6.js";const r={},o={id:"scala\u8BED\u8A00\u57FA\u7840",tabindex:"-1"},_=t("a",{class:"header-anchor",href:"#scala\u8BED\u8A00\u57FA\u7840","aria-hidden":"true"},"#",-1);function n(l,d){return e(),c("h1",o,[_,s(" Scala\u8BED\u8A00\u57FA\u7840")])}var h=a(r,[["render",n],["__file","scala-basic.html.vue"]]);export{h as default};

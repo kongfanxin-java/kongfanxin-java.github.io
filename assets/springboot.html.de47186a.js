@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,b as s,f as a}from"./app.efddb17c.js";const r={},c={id:"\u7B80\u5355\u5DE5\u7A0B",tabindex:"-1"},_=s("a",{class:"header-anchor",href:"#\u7B80\u5355\u5DE5\u7A0B","aria-hidden":"true"},"#",-1),n=a(" \u7B80\u5355\u5DE5\u7A0B"),d=[_,n];function i(h,f){return t(),o("h1",c,d)}var m=e(r,[["render",i],["__file","springboot.html.vue"]]);export{m as default};

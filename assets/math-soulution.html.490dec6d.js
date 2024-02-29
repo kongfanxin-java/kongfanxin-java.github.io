@@ -1,0 +1,1 @@
+const t={key:"v-ce1cc878",path:"/technical-columnist/algorithm/math-soulution.html",title:"\u6570\u5B66\u7B97\u6CD5",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1650265272e3,contributors:[{name:"KongFanxin",email:"kongfanxin_java@163.com",commits:1}]},filePathRelative:"technical-columnist/algorithm/math-soulution.md"};export{t as data};

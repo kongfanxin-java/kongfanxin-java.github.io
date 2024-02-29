@@ -1,0 +1,1 @@
+const t={key:"v-06a86533",path:"/technical-columnist/architecture/dubbo.html",title:"RPC\u67B6\u6784",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1650276807e3,contributors:[{name:"KongFanxin",email:"kongfanxin_java@163.com",commits:1}]},filePathRelative:"technical-columnist/architecture/dubbo.md"};export{t as data};

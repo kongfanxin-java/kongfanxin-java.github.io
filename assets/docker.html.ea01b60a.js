@@ -1,0 +1,1 @@
+const e={key:"v-f7dc6152",path:"/knowledge-base/environment-setup/docker.html",title:"\u5E94\u7528\u5BB9\u5668\u5F15\u64CE",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1650276807e3,contributors:[{name:"KongFanxin",email:"kongfanxin_java@163.com",commits:1}]},filePathRelative:"knowledge-base/environment-setup/docker.md"};export{e as data};

@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a,e as o,b as r}from"./app.012aded6.js";const c={},s={id:"\u6570\u5B66\u7B97\u6CD5",tabindex:"-1"},n=r("a",{class:"header-anchor",href:"#\u6570\u5B66\u7B97\u6CD5","aria-hidden":"true"},"#",-1);function _(d,h){return t(),a("h1",s,[n,o(" \u6570\u5B66\u7B97\u6CD5")])}var l=e(c,[["render",_],["__file","math-soulution.html.vue"]]);export{l as default};

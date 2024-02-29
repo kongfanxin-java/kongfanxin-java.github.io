@@ -1,0 +1,1 @@
+const t={key:"v-6cbc49c0",path:"/dictionary/",title:"\u4E13\u5C5E\u8BCD\u6C47",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1694407237e3,contributors:[{name:"KongFanxin",email:"kongfanxin_java@163.com",commits:4}]},filePathRelative:"dictionary/README.md"};export{t as data};
